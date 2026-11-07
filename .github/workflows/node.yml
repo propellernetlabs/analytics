@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     - name: Read .tool-versions
-      uses: marocchino/tool-versions-action@v1
+      uses: marocchino/tool-versions-action@18a164fa2b0db1cc1edf7305fcb17ace36d1c306 # v1
       id: versions
     - name: Set up Node
       uses: actions/setup-node@v5

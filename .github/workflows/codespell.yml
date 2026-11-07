@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
-    - uses: codespell-project/actions-codespell@v2
+    - uses: codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579 # v2
       with:
         check_filenames: true
         ignore_words_file: .codespellignore
